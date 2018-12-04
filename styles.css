@@ -1,28 +1,37 @@
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
 }
-
-{
-    box-sizing: border-box;
+ {
+     box-sizing: border-box;
 }
-
-body {
-  margin: 0;
+ body {
+     margin: 0;
 }
-
+/* Style the header */
+ .header {
+     background: #7EC0EE;
+     padding: 60px;
+     text-align: center;
+     color: white;
+     font-size: 30px;
+}
+/* Change color on hover */
+ .topnav a:hover {
+     background-color: #7EC0EE;
+     color: white;
+}
 /* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
+ .topnav {
+     overflow: hidden;
+     background-color: #333;
 }
-
 /* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+ .topnav a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
 }
